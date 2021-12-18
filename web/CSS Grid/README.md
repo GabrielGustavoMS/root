@@ -119,7 +119,7 @@ Pode-se observar as propriedades ao juntar `Justify` e `Align`, com os elemetos:
 7. space-evenly
     - Semelhante ao space-around, mas separa todas as colunas a uma mesma distância entre si e entre as colunas
 
-*Obs. `align-content` funciona de forma semelhante ao `justify-content`, porém na vertical e no lugar de "colunas" utiliza linhas*
+*Obs. `align-content` funciona de forma semelhante ao `justify-content`, porém na vertical e no lugar de "colunas" utiliza "linhas"*
 
 ### Items
 
@@ -138,5 +138,8 @@ Pode-se observar as propriedades ao juntar `Justify` e `Align`, com os elemetos:
 
 *Obs. `justify-items` alinha os items horizontalmente, enquanto `align-items` alinha os items verticalmente*
 
+### Self
 
+ `justify-self` e  `align-self` são semelhantes ao `justify-items` e `align-items`, porém aplica-se a cada item do grid, enquanto os segundos
+ são aplicados nos containers.
 
