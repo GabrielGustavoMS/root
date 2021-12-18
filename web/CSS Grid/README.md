@@ -119,6 +119,24 @@ Pode-se observar as propriedades ao juntar `Justify` e `Align`, com os elemetos:
 7. space-evenly
     - Semelhante ao space-around, mas separa todas as colunas a uma mesma distância entre si e entre as colunas
 
-*Obs. `align-content` funciona de forma semelhante ao `justify-content`, porém na vertical*
+*Obs. `align-content` funciona de forma semelhante ao `justify-content`, porém na vertical e no lugar de "colunas" utiliza linhas*
+
+### Items
+
+`justify-items` e `align-items` permite alinhar os items do grid dentro da célula que ele habita, quando há espaço disponível.
+
+
+**4 valores** possíveis para `justify-items` e `align-items`:
+1. start
+    - Alinha o item no início da célula
+2. end
+    - Alinha o item no fim da célula
+3. center
+    - Alinha o item no centro da célula
+4. stretch
+    - Alinhamento padrão
+
+*Obs. `justify-items` alinha os items horizontalmente, enquanto `align-items` alinha os items verticalmente*
+
 
 
