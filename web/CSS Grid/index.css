@@ -1,0 +1,53 @@
+/* Basic Reset */
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #7159c1;
+}
+
+.container{
+    display: grid;
+    /*n-fr refere-se a uma fração que cada coluna ocupa */
+    grid-template-columns: 3fr 1fr;/*Largura da coluna*/
+    grid-template-rows: 20vh 70vh 10vh;/*altura da linha*/
+    grid-template-areas: "batata batata"
+                          "main aside"
+                          "footer .";
+                          /*O Ponto representa um expaço vazio*/
+   
+}
+header {
+    background-color: yellow;
+  
+    /**
+     * Aqui confira-se a "Largura do item header
+     * Começa na coluna ou "linha virtual" 1 e termina na 3
+     * Linha virtual - Bordinha da coluna
+     * Como nesse caso há 2 colunas, são necessárias 3 linhas virtuais
+     * para "defini-las"
+     *
+     *grid-column-start: 1;
+     *grid-column-end: 3;
+     */
+     grid-area: batata;
+
+}
+
+main {
+    background-color: blue;
+    grid-area: main;
+    
+}
+
+aside {
+    background-color: green;
+    grid-area: aside;
+    
+}
+
+footer {
+    background-color: red;
+    grid-area: footer;
+   
+}
