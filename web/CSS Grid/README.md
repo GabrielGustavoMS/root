@@ -70,3 +70,55 @@ definidas automaticamente pela propriedade display.
 
 ... e mais 2 propriedades de **alinhamento**
 
+# Grid: Alinhamento
+---
+
+Existem 6 propriedades de alinhamento:
+1. `justify-content`
+2. `align-content`
+3. `justify-items`
+4. `justify-self`
+5. `align-self`
+
+Separa-se em 2 grupos:
+1. `justify` e `align`
+2. `content`, `items` e `self`
+
+---
+
+## Justify e Align
+
+Dimensões do grid:
+1. **Eixo x**: posicionamento horizontalmente, da esquerda para direita
+2. **Eixo y**: posicionamento vertical, de cima para baixo
+
+---
+
+## Content, Items e Self
+Pode-se observar as propriedades ao juntar `Justify` e `Align`, com os elemetos:  `content`, `items` e `self`
+
+---
+
+### Content
+`justify-content` e `align-content` nos permite alinhar o próprio grid, relativo ao espaço fora do grid e são normalmente usados quando o grid 
+é menor que a área disponível que ele poderia ocupar.  
+
+**7 valores** possíveis para `justify-content`:
+1. start 
+    - Alinha o grid com o "início", + à esquerda 
+2. end 
+    - Alinha o grid com o "fim", + à direita
+3. center 
+    - Alinha o grid no "centro", no meio 
+4. stretch 
+    - Padrão, semelhante ao start
+5. space-between 
+    - Alinha as colunas do grid, criando um espaço no meio: "Entre"
+6. space-around 
+    - Semelhante ao between, mas também cria um espaço ao redor 
+7. space-evenly
+    - Semelhante ao space-around, mas separa todas as colunas a uma mesma distância entre si e entre as colunas
+
+*Obs. `align-content` funciona de forma semelhante ao `justify-content`, porém na vertical*
+
+
