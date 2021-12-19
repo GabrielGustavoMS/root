@@ -581,6 +581,7 @@ footer .social a:hover {
 
   #home .image {
     order: 1;
+    margin-left: 10rem;
   }
 
   #home .text {
