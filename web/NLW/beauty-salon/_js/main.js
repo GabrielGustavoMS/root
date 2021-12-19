@@ -37,11 +37,36 @@ window.addEventListener('scroll', function () {
 })
 
 /* Testimonials carousel slider swiper */
-const swiper = new Swiper('.swiper-container', {
+const swiper = new Swiper('.swiper', {
   slidesPerView: 1,
+  autoplay: {
+    delay: 2500,
+    disableOnInteraction: false
+  },
   pagination: {
-    el: '.swiper-pagination'
+    el: '.swiper-pagination',
+    clickable: true
   },
   mousewheel: true,
   keyboard: true
 })
+
+// Mostrar elementos com scroll
+const scrollReveal = ScrollReveal({
+  origin: 'top',
+  distance: '30px',
+  duration: 700,
+  reset: true
+})
+
+scrollReveal.reveal(
+  `#home image, #home .text, 
+   #about .image, #about .text, 
+   #services header, #services .card,
+   #testimonials header, #testimonials .testimonials,
+   #contact .text, #contact .links
+`,
+  {
+    interval: 100
+  }
+)

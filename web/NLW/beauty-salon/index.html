@@ -12,12 +12,9 @@
       rel="stylesheet"
     />
     <!-- Swiper -->
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper/swiper-bundle.min.css"
-    />
+    <link rel="stylesheet" href="./_css/swiper.css" />
     <!-- Styles -->
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./_css/style.css" />
 
     <!-- Icons -->
     <link rel="stylesheet" href="./assets/fonts/style.css" />
@@ -44,8 +41,9 @@
       <section class="section" id="home">
         <div class="container grid">
           <div class="image">
+            <!-- Fonte:  unsplash.com -->
             <img
-              src="https://images.unsplash.com/photo-1562322140-8baeececf3df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+              src="./assets/images/hairdresser01.jpeg"
               alt="Mulher sorrindo penteando outra mulher"
             />
           </div>
@@ -55,17 +53,23 @@
               Um salão exclusivo em São Paulo, especializado em tratamentos
               naturais.
             </p>
-            <a href="#" class="button">Agendar um horário</a>
+            <a
+              href="https://api.whatsapp.com/send?phone=+5513911111111&text=Oi! Gostaria de agendar um horário"
+              class="button"
+              target="_blank"
+              class="button"
+              >Agendar um horário</a
+            >
           </div>
         </div>
       </section>
       <div class="divider-1"></div>
-
+      <!-- Aboud -->
       <section class="section" id="about">
         <div class="container grid">
           <div class="image">
             <img
-              src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+              src="./assets/images/hairdresser02.jpeg"
               alt="3 mulheres sorrindo"
             />
           </div>
@@ -96,7 +100,7 @@
       </section>
 
       <div class="divider-2"></div>
-
+      <!-- Services -->
       <section class="section" id="services">
         <div class="container grid">
           <header>
@@ -144,13 +148,13 @@
       </section>
 
       <div class="divider-1"></div>
-
+      <!-- Testimonials -->
       <section class="section" id="testimonials">
         <div class="container">
           <header>
             <h2 class="title">Depoimentos de quem já passou por aqui</h2>
           </header>
-          <div class="testimonials swiper-container">
+          <div class="testimonials swiper">
             <div class="swiper-wrapper">
               <div class="testimonial swiper-slide">
                 <blockquote>
@@ -163,7 +167,7 @@
                   </p>
                   <cite>
                     <img
-                      src="https://randomuser.me/api/portraits/women/68.jpg"
+                      src="./assets/images/user01.jpg"
                       alt="Foto Wanessa Souza"
                     />
                     Wanessa Souza
@@ -182,7 +186,7 @@
                   </p>
                   <cite>
                     <img
-                      src="https://randomuser.me/api/portraits/men/3.jpg"
+                      src="./assets/images/user02.jpg"
                       alt="Foto Mike Smith"
                     />
                     Mike Smith
@@ -200,7 +204,7 @@
                   </p>
                   <cite>
                     <img
-                      src="https://randomuser.me/api/portraits/women/30.jpg"
+                      src="./assets/images/user03.jpg"
                       alt="Foto Amanda Rodrigues"
                     />
                     Amanda Rodrigues
@@ -208,6 +212,9 @@
                 </blockquote>
               </div>
             </div>
+
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
@@ -222,7 +229,7 @@
               ouvir suas críticas e sugestões.
             </p>
             <a
-              href="https://api.whatsapp.com/send?phone=+5511998456754&text=Oi! Gostaria de agendar um horário"
+              href="https://api.whatsapp.com/send?phone=+5513911111111&text=Oi! Gostaria de agendar um horário"
               class="button"
               target="_blank"
               ><i class="icon-whatsapp"></i> Entrar em contato</a
@@ -231,7 +238,7 @@
 
           <div class="links">
             <ul class="grid">
-              <li><i class="icon-phone"></i> 11 99845-6754</li>
+              <li><i class="icon-phone"></i> 13 91111-1111</li>
               <li><i class="icon-map-pin"></i> R. Amauri Souza, 346</li>
               <li><i class="icon-mail"></i> contato@beautysalon.com</li>
             </ul>
@@ -240,7 +247,10 @@
       </section>
     </main>
 
-    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <script src="./main.js"></script>
+    <!-- <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script> -->
+    <script src="./_js/swiper.js"></script>
+    <!-- Scrollreveal -->
+    <script src="./_js/scrollreveal.js"></script>
+    <script src="./_js/main.js"></script>
   </body>
 </html>
