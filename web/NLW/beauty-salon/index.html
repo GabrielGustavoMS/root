@@ -13,10 +13,13 @@
     />
     <!-- Styles -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="./assets/fonts/style.css" />
   </head>
   <body>
     <header id="header">
-      <nav class="container show">
+      <nav class="container">
         <a class="logo" href="#">beauty<span>salon</span>.</a>
         <div class="menu">
           <ul class="grid">
@@ -28,8 +31,8 @@
           </ul>
         </div>
         <!--/menu-->
-        <div class="open">...</div>
-        <div class="close">x</div>
+        <div class="toggle icon-menu"></div>
+        <div class="toggle icon-close"></div>
       </nav>
     </header>
     <main>
@@ -42,7 +45,7 @@
             />
           </div>
           <div class="text">
-            <h2 class="title class="title"">Saúde natural para seus cabelos</h2>
+            <h2 class="title">Saúde natural para seus cabelos</h2>
             <p>
               Um salão exclusivo em São Paulo, especializado em tratamentos
               naturais.
@@ -54,13 +57,89 @@
       <div class="divider-1"></div>
 
       <section class="section" id="about">
-        <div class="container grid">Sobre</div>
+        <div class="container grid">
+          <div class="image">
+            <img
+              src="https://images.unsplash.com/photo-1559599101-f09722fb4948?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1169&q=80"
+              alt="3 mulheres sorrindo"
+            />
+          </div>
+          <div class="text">
+            <h2 class="title">Sobre nós</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur iusto recusandae consequuntur repellendus dolor
+              doloremque beatae, molestiae animi vitae nemo sit incidunt labore
+              ex et saepe error optio eaque quibusdam.
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit,
+              quia consectetur. Doloribus iusto aliquid ullam natus quod eum
+              excepturi accusamus hic, quidem architecto nisi esse dignissimos
+              laborum, consectetur libero ad?
+            </p>
+            <br />
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              consectetur iste ut iure reprehenderit assumenda earum. Quasi
+              dolores beatae rem est minus iste rerum? Quaerat repellendus
+              assumenda molestias libero! Nihil.
+            </p>
+          </div>
+        </div>
       </section>
+
+      <div class="divider-2"></div>
+
       <section class="section" id="services">
-        <div class="container grid">Services</div>
+        <div class="container grid">
+          <header>
+            <h2 class="title">Serviços</h2>
+            <p>
+              Com mais de 10 anos no mercado, o
+              <strong>Beautysalon</strong>
+              conquistou clientes de inúmeros países com seus tratamentos
+              exclusivos e totalmente naturais
+            </p>
+          </header>
+          <div class="cards grid">
+            <div class="card">
+              <i class="icon-woman-hair"></i>
+              <h3 class="title">Terapia Capilar</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Consequuntur, velit omnis aliquid non quam amet optio deleniti
+                debitis, quas aliquam tempora incidunt obcaecati laboriosam nam
+                nisi aspernatur molestiae corrupti impedit!
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-trim"></i>
+              <h3 class="title">Cortes</h3>
+              <p>
+                Expedita tempore, quis commodi voluptatibus earum nulla vitae
+                esse fugiat saepe fugit eum repudiandae aliquam officia labore
+                perspiciatis consectetur culpa eaque impedit minus similique
+                quasi optio magnam pariatur! Natus, sequi?
+              </p>
+            </div>
+            <div class="card">
+              <i class="icon-cosmetic"></i>
+              <h3 class="title">tratamentos</h3>
+              <p>
+                Velit non hic alias ipsum neque ea, quia qui exercitationem?
+                Vero mollitia facilis, labore officia voluptates rem quod
+                dignissimos. Tenetur odit mollitia tempora non at velit, nulla
+                provident maxime totam.
+              </p>
+            </div>
+          </div>
+        </div>
       </section>
     </main>
 
     <footer></footer>
+    <script src="./main.js"></script>
   </body>
 </html>
