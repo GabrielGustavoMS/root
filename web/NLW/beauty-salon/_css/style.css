@@ -254,12 +254,8 @@ nav.show div.icon-close {
 
 /*==========HOME============*/
 
-#home {
-  overflow: hidden;
-}
-
 #home .container {
-  margin: 0 auto;
+  margin: 0;
 }
 
 #home .image {
@@ -579,12 +575,13 @@ footer .social a:hover {
 
   #home .container {
     grid-auto-flow: column;
-    width: fit-content;
     justify-content: space-between;
+    margin: 0 auto;
   }
 
   #home .image {
     order: 1;
+    margin-left: 10rem;
   }
 
   #home .text {
